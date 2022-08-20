@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <section class="section-left">
+            <img src="./img/mackbook.png" alt="">
+        </section>
+        <section class="section-right">
+            <section>
+                <h2>Customize your Blue 24-inch iMac with Apple M1 chip</h2>
+            <p>M1 features our latest Neural Engine. Its 16‑core design is capable of executing a massive 11 trillion operations per second. In fact, with a powerful 8‑core GPU, machine learning accelerators, and the Neural Engine, the entire M1 chip is designed to excel at machine learning.</p>
+
+            <div class="memory-section" id="memory-section">
+                <h4>Memory </h4>
+                <button class="btn btn-memory" id="memory-1">8 GB unified memory</button>
+                <button class="btn btn-memory" id="memory-2">16 gb unified memory</button>
+            </div>
+
+            <div class="storage-section" id="storage-section">
+                <h4>Storage</h4>
+                <button id="storage-1" class="btn storage-btn">256Gb   SSD storage</button>
+                <button id="storage-2" class="btn storage-btn">512GB  SSD storage</button>
+                <button id="storage-3" class="btn storage-btn">1Tb  SSD storage</button>
+            </div>
+
+            <div class="delivery-section" id="delivery-section">
+                <h4>Choose Your Delivery Option</h4>
+                <button id="delivery1" class="btn btn-delivey">Friday, July 15 Free Prime Delivey</button>
+                <button id="delivery2" class="btn btn-delivey">Friday, Jul 8 Delivey Charge 40$</button>
+            </div>
+            </section>
+            <section>
+                <div class="pricing-section">
+                    <table>
+                        <tr>
+                            <td>Base Price</td>
+                           <td>$<span id="base-price">1299</span></td>
+                        </tr>
+                        <tr>
+                            <td>Extra Memory Cost</td>
+                            <td id="extra-memory">0</td>
+                        </tr>
+                        <tr>
+                            <td>Extra Storage</td>
+                            <td id="extra-storage">0</td>
+                        </tr>
+                        <tr>
+                            <td>Delivery Chrage</td>
+                            <td id="delivey-charge">0</td>
+                        </tr>
+                        <tr>
+                            <td>Total Price</td>
+                            <td>$<span  id="total-price">1299</span> </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="discount">
+                    <h4>Add Promo Code</h4>
+                    <input type="number" id="discount-input">
+                    <button id="discount-btn">Apply</button>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

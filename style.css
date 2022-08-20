@@ -1,0 +1,47 @@
+
+body{
+    background-color: #D3CEDC;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+main{
+    gap: 5rem;
+    display: flex;
+}
+
+.btn{
+    padding: .5rem;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.btn-active{
+    border: 1px solid rgb(4, 184, 255);
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.pricing-section{
+    padding: 2rem 0;
+}
+table{
+    width: 100%;
+}
+td{
+    border-bottom: 1px solid rgb(167, 167, 167);
+}
+td:nth-child(2){
+    text-align: right;
+    color: red;
+}
